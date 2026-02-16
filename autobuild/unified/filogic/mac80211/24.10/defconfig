@@ -1,11 +1,16 @@
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_comfast_cf-e393ax=y
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_comfast_cf-e593ax=y
+# CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7981-rfb is not set
 # CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7986a-rfb-nand is not set
+# CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7988a-rfb is not set
 # CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7986b-rfb is not set
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_yuncore_ax835=y
 CONFIG_KERNEL_PROFILING=y
 CONFIG_KERNEL_BPF_EVENTS=y
 CONFIG_DEVEL=y
 CONFIG_IB=y
+CONFIG_IMAGEOPT=y
+CONFIG_VERSIONOPT=y
 CONFIG_BUSYBOX_CONFIG_TELNET=y
 CONFIG_BUSYBOX_CONFIG_TELNETD=y
 CONFIG_BUSYBOX_CONFIG_FEATURE_TELNETD_STANDALONE=y
@@ -16,6 +21,9 @@ CONFIG_PACKAGE_perf=y
 # CONFIG_PACKAGE_mt7986-wo-firmware is not set
 CONFIG_PACKAGE_mt7988-wo-firmware=y
 CONFIG_PACKAGE_kmod-br-netfilter=y
+CONFIG_PACKAGE_kmod-mt798x-2p5g-phy=y
+CONFIG_PACKAGE_kmod-sfp=y
+CONFIG_PACKAGE_kmod-usb3=y
 CONFIG_PACKAGE_CFG80211_TESTMODE=y
 # CONFIG_PACKAGE_kmod-mt7915e is not set
 # CONFIG_PACKAGE_kmod-mt7981-firmware is not set
@@ -28,8 +36,13 @@ CONFIG_PACKAGE_luci-app-advanced=m
 CONFIG_PACKAGE_luci-app-omcproxy=y
 CONFIG_PACKAGE_atenl=y
 CONFIG_PACKAGE_netfilter-flowtable=y
+CONFIG_PACKAGE_kmod-crypto-eip-ddk=y
+CONFIG_PACKAGE_kmod-pce=y
 CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_strongswan=y
+CONFIG_PACKAGE_strongswan-default=y
+CONFIG_PACKAGE_strongswan-mod-kdf=y
 CONFIG_PACKAGE_afcd=y
 CONFIG_PACKAGE_hostapd-utils=y
 CONFIG_PACKAGE_wpa-cli=y
@@ -38,3 +51,7 @@ CONFIG_PACKAGE_iperf3=y
 # CONFIG_PACKAGE_iw is not set
 CONFIG_PACKAGE_iw-full=y
 CONFIG_PACKAGE_smp_util=y
+CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_e2fsprogs=y
+CONFIG_PACKAGE_f2fsck=y
+CONFIG_PACKAGE_mkf2fs=y
