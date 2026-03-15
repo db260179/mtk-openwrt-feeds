@@ -1,6 +1,11 @@
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_comfast_cf-e393ax=y
+# CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7986a-rfb-nand is not set
+# CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_mediatek_mt7986b-rfb is not set
+CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_yuncore_ax835=y
 CONFIG_KERNEL_PROFILING=y
 CONFIG_KERNEL_BPF_EVENTS=y
 CONFIG_DEVEL=y
+CONFIG_IB=y
 CONFIG_BUSYBOX_CONFIG_TELNET=y
 CONFIG_BUSYBOX_CONFIG_TELNETD=y
 CONFIG_BUSYBOX_CONFIG_FEATURE_TELNETD_STANDALONE=y
@@ -19,6 +24,7 @@ CONFIG_PACKAGE_kmod-mt7990-firmware=y
 CONFIG_PACKAGE_kmod-mt7992-23-firmware=y
 CONFIG_PACKAGE_kmod-mt7992-firmware=y
 CONFIG_PACKAGE_kmod-mt7996-233-firmware=y
+CONFIG_PACKAGE_luci-app-advanced=m
 CONFIG_PACKAGE_luci-app-omcproxy=y
 CONFIG_PACKAGE_atenl=y
 CONFIG_PACKAGE_netfilter-flowtable=y
