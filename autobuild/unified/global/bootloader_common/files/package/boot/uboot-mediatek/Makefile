@@ -5,8 +5,8 @@ PKG_NAME:=uboot-mediatek-filogic-official-release
 PKG_VERSION:=2026.01.23
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL=https://github.com/mtk-openwrt/u-boot.git
-PKG_MIRROR_HASH:=4383cf80f4ff012510bc83508b4e0d677b034c9c5a2f633cae68fcc103c08bb0
+PKG_SOURCE_URL=https://github.com/db260179/u-boot-mediatek.git
+PKG_MIRROR_HASH:=skip
 PKG_SOURCE_DATE:=2026-01-23
 PKG_SOURCE_VERSION:=cecda4b7a198f8606c9f454ddf9a2a8fdf30a57c
 PKG_BUILD_DEPENDS:=arm-trusted-firmware-tools/host
