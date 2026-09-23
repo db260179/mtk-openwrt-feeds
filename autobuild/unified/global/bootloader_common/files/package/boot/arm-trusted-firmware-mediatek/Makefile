@@ -12,10 +12,10 @@ PKG_NAME:=arm-trusted-firmware-mediatek
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL=https://github.com/mtk-openwrt/arm-trusted-firmware.git
+PKG_SOURCE_URL=https://github.com/db260179/arm-trusted-firmware.git
 PKG_SOURCE_DATE:=2026-01-23
 PKG_SOURCE_VERSION:=e06f258664198a901ff1c7c0c87802a115179451
-PKG_MIRROR_HASH:=6eda1eabe019c913b3f2bc66fc5ed41849c5b9ed20910980f74a8a1a08a4ae58
+PKG_MIRROR_HASH:=skip
 PKG_SOURCE_SUBMODULES:=skip
 
 PKG_MAINTAINER:=Daniel Golle <daniel@makrotopia.org>
